@@ -1,0 +1,25 @@
+{
+  "name": "depoly-site-node",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "run": "DEBUG=* node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/gggin/depoly-site-node.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/gggin/depoly-site-node/issues"
+  },
+  "homepage": "https://github.com/gggin/depoly-site-node#readme",
+  "dependencies": {
+    "avoscloud-sdk": "^0.6.9",
+    "debug": "^2.2.0",
+    "uuid": "^2.0.1"
+  }
+}
